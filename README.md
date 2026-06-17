@@ -1,4 +1,4 @@
-# Mutual3D
+# Mutual3D: Generative Instance Mesh Reconstruction via Semantic–Geometric Mutual Refinement
 
 Official repository for **Mutual3D: Generative Instance Mesh Reconstruction via Semantic–Geometric Mutual Refinement**.
 
