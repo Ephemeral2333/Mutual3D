@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs & experiment tracking
+*.log
+logs/
+wandb/
+runs/
+mlruns/
+tensorboard/
+outputs/
+
+# Training / evaluation artifacts
+experiments/
+results/
+pre_ckpt/
+run/
+
+# Datasets & large assets (keep code under data/, ignore downloaded data)
+datasets/
+data/scannet_shapenet_pairs/
+
+# Checkpoints & model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Generated meshes / point clouds / exports
+*.ply
+*.obj
+*.off
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# CUDA / C++ extension build artifacts
+lib/**/build/
+lib/**/*.egg-info/
+lib/**/*.so
+lib/**/*.pyd
+
+# Config overrides & secrets
+.env
+.env.*
+*.local.yaml
+*.local.yml
+
+# Coverage / tests
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+*.tar.gz
+*.zip
